@@ -1,6 +1,7 @@
 <template>
   <div>
     <p>{{title}}</p>
+    <p>{{content}}</p>
   </div>
 </template>
 
@@ -8,7 +9,8 @@
 export default {
   data () {
     return {
-      title: 'first'
+      title: 'third',
+      content: '阿三'
     }
   }
 }
